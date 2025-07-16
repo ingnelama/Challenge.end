@@ -21,4 +21,18 @@ while 1 < 2:
 solución
 
 ```pseudocde
+def sumar_diccionarios(diccionario_1 : dict, diccionario_2 : dict) -> dict:
+    for key() in diccionario_1:
+        for key in diccionario_2:
+            if key in diccionario_1 == key in diccionario_2:
+                diccionarios_sumados = diccionario_2.update(diccionario_1)
+                break
+            else:
+                diccionarios_sumados = diccionario_1.update(diccionario_2)
+    return diccionarios_sumados
+if __name__ == "__main__":
+    diccionario_1 = {5: "a", 6: "b", 7: "c"}
+    diccionario_2 = {5: "d", 8: "e", 7: "f"}
+    update_diccionarios = sumar_diccionarios(diccionario_1, diccionario_2)
+    print(update_diccionarios)    
 ```
