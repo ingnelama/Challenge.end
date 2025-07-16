@@ -4,6 +4,15 @@ Reto 12- Diccionarios
 Solución:
 
 ```pseudocode
+diccionario = {5:"abc", 6:"def", 7:"ghi"}
+
+while 1 < 2:
+    if max(diccionario) == max(diccionario):
+        print(min(diccionario))
+        del diccionario[min(diccionario)]
+        if max(diccionario) == min(diccionario):
+            print(max(diccionario))
+            break
 ```
 
 2. Desarrollar una función que reciba dos diccionarios como parámetros y los mezcle, es decir, que se construya un nuevo diccionario con las llaves de los dos diccionarios; si hay una clave repetida en ambos diccionarios, se debe asignar el valor que tenga la clave en el primer diccionario.
